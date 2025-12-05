@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: joke-generator
+    env: static
+    buildCommand: ""
+    staticPublishPath: ./
+    domains:
+      - your-custom-domain.com # Optional: Add your custom domain here later
